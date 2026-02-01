@@ -1,2 +1,15 @@
 # cv-repo-Khadija-A-Rahim-
-Personal CV Website Project
+Project Info: 
+    Personal CV Website Project
+
+Technologies:
+    HTML, CSS, JavaScript
+
+LiveLink:
+
+
+Roll#:
+    23L1008
+
+Name:
+    Khadija A-Rahim
