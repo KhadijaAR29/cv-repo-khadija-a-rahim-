@@ -42,6 +42,53 @@ footer{
     background-color: hsl(207, 100%, 50%);
     font-size: x-large;
 }
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+#tog:checked ~ .buttons ~ .me,
+#tog:checked ~ .buttons ~ .contact,
+#tog:checked ~ .buttons ~ .edu,
+#tog:checked ~ .buttons ~ .act,
+#tog:checked ~ .buttons ~ .cert,
+#tog:checked ~ .buttons ~ .softskills,
+#tog:checked ~ .buttons ~ .techskills,
+#tog:checked ~ .buttons ~ .projects,
+#tog:checked ~ .buttons ~ .course
+{
+    background-color: #121212 !important;
+    color: #ffffff !important;
+}
+#tog:checked ~ .buttons .header,#tog:checked ~ .buttons .footer{
+    background-color: hsl(207, 100%, 50%) !important;
+    color: black !important;
+}
+.download-btn{
+    display: inline-block;
+    padding: 8px 10px;
+    margin-top: 10px;
+    background-color:  hsl(207, 100%, 50%);
+    color: #ffffff;
+    text-decoration: solid;
+    border-radius: 7px;
+}
+.download-btn:hover{
+    background-color:  hsl(207, 98%, 42%);
+    cursor: pointer;
+}
+.toggle-btn{
+    display: inline-block;
+    padding: 8px 10px;
+    margin-top: 10px;
+    background-color:  hsl(207, 100%, 50%);
+    color: #ffffff;
+    text-decoration: solid;
+    border-radius: 7px;
+}
+.toggle-btn:hover{
+    background-color:  hsl(207, 98%, 42%);
+    cursor: pointer;
+}
 @media (min-width: 768px){
     .edu, .projects, .techskills, .softskills, .course, .cert, .act{
         width: 48%;
