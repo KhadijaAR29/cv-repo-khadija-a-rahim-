@@ -1,2 +1,2 @@
 # cv-repo-Khadija-A-Rahim-
-CV Website
+Personal CV Website Project
