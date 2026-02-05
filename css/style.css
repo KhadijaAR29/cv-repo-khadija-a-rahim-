@@ -45,6 +45,17 @@ footer{
 .buttons{
     display: flex;
     flex-direction: column;
+    animation: slideInLeft 0.8s ease-out forwards;
+}
+@keyframes slideInLeft{
+    from{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 #tog:checked ~ .buttons ~ .me,
 #tog:checked ~ .buttons ~ .contact,
