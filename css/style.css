@@ -45,7 +45,7 @@ footer{
 .buttons{
     display: flex;
     flex-direction: column;
-    animation: slideInLeft 0.8s ease-out forwards;
+    animation: slideInLeft 1.5s ease-out forwards;
 }
 @keyframes slideInLeft{
     from{
